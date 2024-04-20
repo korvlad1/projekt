@@ -117,6 +117,7 @@ nav-links{
     padding: 50px 0;
     background-color: #fff; /* Change to desired background color */
     padding-top: 100px;
+    height: fit-content;
 }
 
 h1{
@@ -140,15 +141,13 @@ p{
 }
 .rowbot{
     margin-top: 5%;
-    display:flex;
-    justify-content: center;
 }
 .col2 {
-    flex-basis: 31%;
+    display: inline-block;
     background:#f7defc;
     border-radius:10px;
-    padding: 20px 12px;
-    box-sizing:border-box;
+    padding: 20px 40px;
+    max-width: 400px;
     transition: 0.5s;
 }
 
